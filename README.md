@@ -1,25 +1,25 @@
 # social-media-big-data-analyzer
-# 📊 Social Media Big Data Analyzer
+# 📊 Social Media Big Data Analyzer (TF-IDF Count Version)
 
-A Streamlit-based application that analyzes trending social media topics using Reddit data.
+A Streamlit-based application that analyzes trending social media topics using Reddit RSS data.
 
 ## 🚀 Features
-- Fetches live trending data from Reddit (RSS)
-- TF-IDF based keyword importance analysis
-- Numeric score display
+- Fetches live trending Reddit topics
+- Uses TF-IDF with 2000-word vocabulary
+- Displays TF-IDF document count (not score)
 - User-defined topic suggestion
 - Rule-based trend categorization
 - WordCloud visualization
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 - Python
 - Streamlit
 - Pandas
 - Scikit-learn
 - Reddit RSS
-- Matplotlib & WordCloud
 
 ## ▶️ Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
